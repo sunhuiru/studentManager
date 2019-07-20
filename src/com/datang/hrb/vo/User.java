@@ -1,12 +1,13 @@
-package com.datang.hrbu.vo;
+package com.datang.hrb.vo;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class User {
-    private String username;
-    private String password;
-    private int age;
-    private Date ts;
+	//定义私有变量
+	private String username;
+	private String password;
+	private int age;
+	private Date ts;
 	public String getUsername() {
 		return username;
 	}
@@ -31,5 +32,5 @@ public class User {
 	public void setTs(Date ts) {
 		this.ts = ts;
 	}
-    
+	
 }

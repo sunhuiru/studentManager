@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-登陆失败
+注册失败
 </body>
 </html>
