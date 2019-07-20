@@ -9,12 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <servlet-name>globalController</servlet-name>
-    <servlet-class>com.datang.hrbu.controller.GlobalController</servlet-class>
+   <servlet>
+   <servlet-name>globalController</servlet-name>
+   <servlet-class>com.datang.hrb.controller.GlobalController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>globalController</servlet-name>
-    <url-pattern>*.do</url-pattern>
-  </servlet-mapping>
+   <servlet-name>globalController</servlet-name>
+   <url-pattern>*.do</url-pattern>
+ </servlet-mapping>
 </web-app>
